@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AI Model\'s Termonologies',
+  title: 'Dinosaurs Website',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -60,7 +60,7 @@ const config = {
             label: 'Learn',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/busycaesar/Docusaurus_Boilerplate_Code',
             label: 'GitHub',
             position: 'right',
           },
