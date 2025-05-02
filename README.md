@@ -15,12 +15,61 @@ This is the Boilerplate Code to create a static website to publish notes, blogs 
 
 ## How to run the project?
 
-/ Start the docker container using the `docker-compose.yml` file.
-/ Initiate the interactive terminal of the docker container.
-/ Run the command, `npm run start`.
-/ The website is hosted on port 3000 from inside the container. The port 3000 of the container is mapped to port 3000 of the local machine. Hence, you can check the website from your local machine.
-/ Add files inside `docs/` directory and it will be on the website automatically.
-/ Any code change will also be stored in the `pwd` since the volume of `/website` directory inside the container is mapped to `pwd` of the local machine.
+- Clone the repository
+- Run `npm install`
+- Add notes in `docs` directory
+- Add webstie metadata in `docusaurus.config.js`
+- Check the website by running `npm run serve`
+- Add domain in `static/CNAME`
+- Run `push-changes.sh` to push changes to GitHub and deploy the changes to the website.
+- Optionally pass a string as an argument to the `push-changes.sh` script for the commit message.
+
+Follow these steps to set up and deploy your Docusaurus-based documentation website:
+
+1. Clone the Repository
+
+```bash
+git clone <repository-url>
+cd <project-directory>
+```
+
+2. Install Dependencies
+
+```bash
+npm install
+```
+
+3. Add Documentation Content
+
+- Place your Markdown files in the `docs/` directory.
+
+4. Configure Site Metadata
+
+- Update site title, description, and other metadata in `docusaurus.config.js`.
+
+5. Preview the Website Locally
+
+```bash
+npm run serve
+```
+
+6. Set Custom Domain (Optional)
+
+- Create a `CNAME` file inside the `static/` directory with your custom domain:
+
+```txt
+example.com
+```
+
+7. Deploy Changes
+
+- Use the provided script to commit and deploy:
+
+```bash
+./push-changes.sh "Your commit message here"
+```
+
+- If no message is provided, a default will be used.
 
 ## Author
 [Dev Shah](https://github.com/busycaesar)
