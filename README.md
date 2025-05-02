@@ -63,4 +63,4 @@ example.com
 - If no message is provided, a default will be used.
 
 ## Author
-[Dev Shah](https://github.com/busycaesar)
+[Dev J. Shah](https://github.com/busycaesar)
