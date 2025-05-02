@@ -15,15 +15,6 @@ This is the Boilerplate Code to create a static website to publish notes, blogs 
 
 ## How to run the project?
 
-- Clone the repository
-- Run `npm install`
-- Add notes in `docs` directory
-- Add webstie metadata in `docusaurus.config.js`
-- Check the website by running `npm run serve`
-- Add domain in `static/CNAME`
-- Run `push-changes.sh` to push changes to GitHub and deploy the changes to the website.
-- Optionally pass a string as an argument to the `push-changes.sh` script for the commit message.
-
 Follow these steps to set up and deploy your Docusaurus-based documentation website:
 
 1. Clone the Repository
